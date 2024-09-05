@@ -1,7 +1,6 @@
 html {
   height: 100%;
   width: 100%;
-  background-color: darkslateblue;
 }
 
 .Title{
@@ -12,6 +11,17 @@ html {
   font-style: normal;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: white;
+}
+
+.Subtitle{
+    line-height: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 300%;
+    font-style: normal;
+    font-family:'Arial Narrow', sans-serif;
+    color: white;
+  }
 }
 
 .MainExpl{
@@ -58,4 +68,37 @@ html {
   background-color: black;
   position: absolute;
   bottom:0%;
+}
+
+.secretbutton{
+  font-size: 100%;
+  color: white;
+  display: none;
+}
+
+.SocialUI{
+  width: 60%;
+  background-color: yellow;
+  border-color: purple;
+  border-radius: 3%;
+  align-self: center;
+  float:left;
+}
+
+.Post{
+  height:110%;
+  width:60%;
+  background-color: gray;
+  border-color: green;
+  border-radius: 3%;
+  align-self: center;
+}
+
+.Responsebox{
+  width: 40%;
+  background-color: red;
+  border-color: purple;
+  border-radius: 3%;
+  align-self: center;
+  float: right;
 }
